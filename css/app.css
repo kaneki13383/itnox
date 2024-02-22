@@ -1,0 +1,35 @@
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Manrope:wght@200..800&display=swap');
+
+* {
+    list-style-type: none;
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    width: 100%;
+    max-width: 1300px;
+    margin: 0 auto;
+}
+
+.mini_h {
+    color: #f9f9f9bb;
+    background: rgba(34, 35, 62, 0.4);
+    width: max-content;
+    padding: 6px 10px;
+    font-size: 16px;
+    font-family: "Inter", sans-serif;
+    margin-bottom: 10px;
+    font-weight: 300;
+}
+
+.bg_image {
+    background-image: url('../img/bg_2.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position-y: -160px;
+    background-color: #1A1B30;
+}

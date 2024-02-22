@@ -1,0 +1,73 @@
+.section_1 {
+    height: 100vh;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.bg_image_main {
+    background-image: url('../img/bg.png');
+    background-size: 92%;
+    background-position-y: -50px;
+    background-repeat: no-repeat;
+    background-color: #1A1B30;
+}
+
+.section_1 .body_sec_1 {
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+}
+
+.section_1>svg {
+    position: absolute;
+    left: 30px;
+}
+
+.section_1 .body_sec_1 h1 {
+    font-size: 62px;
+    width: 707px;
+    font-family: "Manrope", sans-serif;
+    color: #f9f9f9;
+    line-height: 130%;
+}
+
+.section_1 .body_sec_1 p {
+    width: 580px;
+    font-family: "Inter", sans-serif;
+    color: #f9f9f9;
+    line-height: 150%;
+}
+
+.section_1 .body_sec_1 button {
+    margin-top: 40px;
+    cursor: pointer;
+    width: 254px;
+    height: 64px;
+
+    font-size: 18px;
+    color: #f9f9f9;
+
+    border: none;
+    background: linear-gradient(0.25turn, #22C6EA, #6144D3);
+}
+
+.section_1 .right_menu {
+    position: absolute;
+    right: 5rem;
+    top: 30vh;
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+}
+
+.section_1 .right_menu div {
+    cursor: pointer;
+    padding: 9px;
+    background: linear-gradient(300deg, #1A1B30, #21203D);
+    box-shadow:
+        inset -2px -2px 4px 0px rgb(5, 5, 16, 40%),
+        inset 1px 1px 4px 0px rgb(151, 149, 255, 16%),
+        -20px -20px 70px 0px rgb(44, 45, 79, 41%),
+        20px 20px 70px 0px rgb(21, 21, 38, 70%);
+}

@@ -1,0 +1,44 @@
+header {
+    position: absolute;
+    width: 100%;
+    border-bottom: 1px solid #383A60;
+}
+
+header div {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    height: 70px;
+}
+
+header div p {
+    color: #F9F9F9;
+    font-family: "Ubuntu", sans-serif;
+    font-size: 24px;
+}
+
+header div p span {
+    color: #22C6EA;
+}
+
+header div .right {
+    display: flex;
+    flex-direction: row;
+    gap: 100px;
+}
+
+header div .right div {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 10px;
+}
+
+header div .right div a {
+    color: #F9F9F9;
+    font-size: 18px;
+    text-decoration: none;
+    font-family: "Inter", sans-serif;
+    font-weight: 300;
+}
